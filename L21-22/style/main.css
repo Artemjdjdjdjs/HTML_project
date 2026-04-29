@@ -10,6 +10,9 @@
 
 body {
   font-family: Laila;
+  padding: 50px;
+  background-image: url(../img/Прототип.png);
+  
 }
 
 .fl {
@@ -19,6 +22,7 @@ body {
 
 .header {
   justify-content: space-between;
+  padding-bottom: 182px;
 }
 
 .logo-box,
@@ -32,7 +36,10 @@ body {
 
 .logo-text,
 .nav-link {
-  color: var(--dk-font-color);
+  color: var(--lt-font-color);
+  text-decoration: none;
+  font-size: 30px;
+  white-space:nowrap;
 }
 
 .logo-text {
@@ -62,4 +69,93 @@ body {
 @font-face {
   font-family: Laila;
   src: url(../font/Laila-Bold.ttf);
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 5px;
+  }
+  .header{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-link {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width: 1400px){
+  .nav-link {
+    font-size: 35px;
+  }
+}
+
+
+
+.fl-main{
+  display:flex;
+ 
+}
+.col{
+  flex:1;
+}
+.autor-name{
+  font-size: 70px;
+  font-family: Laila;
+  color: #1698AC;
+  font-weight: 600;
+}
+
+.auton-about{
+  font-family: Laila;
+  font-size: 50px;
+  color:#ffffff;
+}
+
+.auton-description{
+  font-family: Laila;
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.active {
+  font-size: 25px;
+  color: #FFFFFF;
+  font-family: Laila;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 15px 53px;
+  
+}
+
+.autor-link:hover{
+background-color: #1698AC;
+border: 1px solid white;
+
+}
+
+
+
+.autor-link {
+  display: inline-block;
+}
+
+.autor-link-box{
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
