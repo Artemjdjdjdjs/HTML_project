@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-box {
+background-color:#1A142D;
+}
+main{
+    display: flex;
+    gap: 67px;
+
+}
+.about-box{
+    padding:18px;
+    width: 30%;
+    
+
+}
+.photo-box{
+    border: 1px solid white;
+    margin-bottom: 38px;
+    
+}
+.name-box{
+    margin-bottom:15px;
+    text-align:center;
+}
+.tx{
+    color: white;
+    font-size:48px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.date-box{
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    text-align:center;
+    color:white;
+    font-size: 14px;
+    
+}
+.icon-box{
+    text-align: center;
+}
+body{
+font-family: Montserrat;
+padding: 64px 57px;
+}
+.ct{
+font-size:14px ;
+padding-bottom: 20px;
+padding-right:170px ;
+}
+.photo{
+    width: 100%;
+}
+.wr{
+    font-size: 24px;
+    font-weight: 700px;
+    margin-top:22px;
+}

@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-box {
+  background:
+    /* linear-gradient(rgba(50, 29, 145, 0.87), rgba(50, 29, 145, 0.87)), */
+    url("../img/BG.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+  /* background-color: #A0583C; */
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 22px 22px 85px;
+  align-items: center;
+
+}
+
+.nav-list {
+  display: flex;
+  gap: 52px;
+  list-style: none;
+}
+
+.nav-link,
+.btn {
+  color: #efeff5;
+  font-family: Poppins;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 9px 13px;
+  background-color: #A0583C;
+  border-radius: 7px;
+}
+
+.reg-box {
+  display: flex;
+  gap: 20px;
+}
+
+.reg-link {
+  display: flex;
+  align-items: center;
+}
+
+.banner-title-box{
+  margin: 150px auto 75px auto;
+}
+
+.banner-title,
+.banner-sub-title {
+  text-align: center;
+  color: #FFFADA;
+  font-family: Roboto;
+  margin-bottom: 35px;
+}
+
+.banner-title {
+  font-size: 72px;
+}
+
+.banner-sub-title {
+  font-size: 24px;
+
+}
+
+.btn-banner-box{
+  text-align:center;
+  margin-top:20px ;
+}
+
+.bth-banner{
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 65px;
+  font-weight: 500;
+  background:linear-gradient(90deg, #A0583C,#C08267);
+}
+.banner{
+  padding-bottom: 50px;
+}
+
+.sct{
+  padding: 37px;
+}
+.divider{
+  display: flex;
+  gap:12px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 57px;
+}
+.divider-title{
+  white-space: nowrap;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 500;
+  color:#C08267;
+}
+
+.divider-line{
+  background-color: #A0583C;
+  width: 100%;
+  height: 2px;
+}
+.sct {
+  background-color: #FFFADA;
+
+}
+
+
+
+
+.card-box{
+  display: flex;
+  gap:41px;
+  
+}
+
+.card{
+  background-color: #C08267;
+  border-radius: 20px;
+  padding: 17px 15px;
+}
+.card-title{
+  padding:9px ;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-description{
+  padding-bottom: 50px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  color: #FFFADA;
+
+}
+
+.order-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bth-order{
+  text-decoration: none;
+  text-align: center;
+  font-family: Poppins;
+  color:white;
+}
+
+
+
+.order-btn-box{
+padding: 12px 15px;
+  background-color: #A0583C;
+  border-radius: 14px;
+
+}
+
+
+.price{
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.sct-drk{
+  background-color: #C08267;
+}
+
+.sct-drk .divider-title{
+  color:white;
+}
+
+.sct-drk .divider-line{
+  background-color: #FFFFFF;
+}
+
+.cols-box{
+  display: flex;
+  justify-content: space-between;
+
+  padding-right:71px ;
+  padding-left: 83px;
+}
+
+
+.cols-list{
+  list-style: none;
+ 
+}
+.cols-item{
+  padding-top: 4px;
+}
+
+.cols-brand{
+  display: flex;
+}
+
+.cols-title{
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.col-link{
+  font-size: 21px;
+  font-family: Poppins;
+  width: 500;
+  color: white;
+  text-decoration: none;
+}
+

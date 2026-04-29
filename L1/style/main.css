@@ -1,0 +1,59 @@
+.nav-link {
+ color:red;
+ text-transform:uppercase;     /* великі літери*/
+ text-decoration: none;       /* прибирає підкреслення*/
+ font-size:18px;              /* розмір*/
+ font-weight:900;            /* жирність*/
+ margin:26px 36px;           /* зовнішні відступи */
+ display: inline-block;
+}
+header {
+    text-align:center;
+}
+
+.banner{
+    width:100%;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+.text{
+    text-align:center;
+    color:#373737;
+    text-transform:uppercase;
+    margin:49px;
+    font-size:22px;
+    letter-spacing:3px;
+    font-family:'Courier New', Courier, monospace
+}
+.content{
+font-size:16px;
+font-weight:400px;
+letter-spacing:2px;
+margin:38px 67px;
+text-align:center
+}
+.btn{
+    background:red;
+    border-radius:4px;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    padding:18px 24px;
+    
+}
+
+.btn-box{
+    text-align:center;
+    margin:66px;
+}
+.ft{
+    text-align:right;
+    font-size:29px ;
+    font-weight:700;
+    color:#373737;
+    margin-top:82px;
+    margin-right:105px;
+    margin-bottom:29px;
+}

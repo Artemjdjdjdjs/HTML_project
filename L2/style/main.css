@@ -1,0 +1,26 @@
+table,
+th,
+td{
+   border-width: 1px;
+    border-color: black;
+    border-style:solid;
+    text-align: center; 
+    font-size: 35px;
+    border-collapse: collapse;
+    padding:5px 15px;
+    
+}
+td{
+    font-weight:350;
+}
+th{
+    background-color:bisque;
+}
+td{
+    
+}
+table{
+    background-image: url(../image/360_F_322067156_cUoAA4Kb4XBFAjGErAjHZMN0Xs1lpGpI.jpg);
+    background-repeat: no-repeat;
+    
+}
